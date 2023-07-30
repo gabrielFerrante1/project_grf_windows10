@@ -1,0 +1,15 @@
+.container {
+    height: 100%; 
+    padding: 5px 10px;
+    background-color: rgb(49, 49, 49);
+    overflow: hidden;
+}
+
+.container > textarea {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    outline: none;
+    color: whitesmoke;
+    resize: none;
+}

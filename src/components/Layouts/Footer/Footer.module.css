@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    padding: 6px 30px 6px 15px;
+}
+
+.footerInfo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footerInfoComputer {
+    display: flex;
+    gap: 10px;
+}
+
+.footerInfoComputerNetworkIcon,
+.footerInfoComputerVolumeIcon {
+    color: white;
+    font-size: 19px;
+}
+
+.footerInfoDay {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+}
+
+.footerInfoDayHours {
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.footerInfoDayDate {
+    margin-top: 3px;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.footerOpenApps {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerOpenAppsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footerOpenAppsItem:hover {
+    background-color: rgba(167, 167, 167, 0.329);
+}
+
+.footerOpenAppsItemIcon {
+    width: 31px;
+    height: 31px;
+}
+
+.footerOpenedApp {
+    width: 8px;
+    border-top: 3px solid rgb(133, 133, 133);
+    border-radius: 25%;
+    margin-top: 4px;
+    margin-bottom: -6px;
+}
+
+.footerInfoWeather {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.footerInfoWeatherIcon {
+    width: 23px;
+    height: 23px;
+}
+
+.footerInfoWeatherLabel {
+    font-size: 15px;
+    color: rgb(235, 235, 235);
+    font-family: monospace;
+}

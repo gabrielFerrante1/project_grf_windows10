@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    height: calc(100% - 54px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    resize: both;
+    overflow: hidden;
+    box-shadow: 0 0 30px 1px rgba(39, 39, 39, 0.842);
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.headerLabel {
+    color: rgb(230, 230, 230);
+    font-size: 13.5px;
+    padding: 2px 0;
+    font-family: 'Nunito', monospace;
+    padding: 7px 0 7px 10px;
+}
+
+.headerAction {
+    display: flex;
+    align-items: center;
+}
+
+.headerActionMinus {
+    padding: 7px 10px;
+}
+
+.headerActionFullscreen {
+    padding: 9px 8px;
+}
+
+.headerActionClose {
+    padding: 8px 8px;
+}
+
+.headerActionClose:hover {
+    background-color: rgb(243, 59, 59);
+}
+
+.headerActionMinus:hover,
+.headerActionFullscreen:hover {
+    background-color: rgba(153, 153, 153, 0.322);
+}
+
+.headerActionIcon {
+    color: white;
+    font-size: 19px;
+}
+
+.body {
+    height: 100%;
+    overflow: auto;
+}
